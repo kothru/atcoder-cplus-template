@@ -5,6 +5,8 @@ int main()
 {
   bool is = true;
   int a = 1;
+  // too much big, const
+  constexpr int INF = 1 << 30;
   // declare var first
   int a, b;
   // input
